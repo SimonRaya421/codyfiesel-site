@@ -1,0 +1,20 @@
+node_modules/
+.next/
+.env
+.env.local
+.env.production
+*.log
+.DS_Store
+dist/
+build/
+.vercel
+*.bak-*
+
+# Lead PII exports / migration data — never commit (contains real lead records)
+data/
+backups/
+
+# Local secrets staging — never commit
+*.local
+td094-keys.local
+docs/private/
