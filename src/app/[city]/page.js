@@ -6,6 +6,9 @@ import JsonLd from '../../components/JsonLd';
 import { buildBreadcrumbSchema, buildPlaceSchema } from '../../lib/schema';
 import Link from 'next/link';
 
+// ISR: prerendered empty at build, filled on first request, refreshed every 5 min.
+export const revalidate = 300;
+
 /* ─── City slug → display name map ─── */
 const CITY_MAP = {};
 const VALID_SLUGS = [];

@@ -4,6 +4,9 @@ import { fetchListings } from '../../../lib/simplyrets';
 import ListingCard from '../../../components/ListingCard';
 import Link from 'next/link';
 
+// ISR: prerendered empty at build, filled on first request, refreshed every 5 min.
+export const revalidate = 300;
+
 /* ─── City slug → display name map ─── */
 const CITY_MAP = {};
 const VALID_CITY_SLUGS = [];

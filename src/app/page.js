@@ -7,6 +7,9 @@ import { buildRealEstateAgentSchema, buildLocalBusinessSchema, buildWebSiteSchem
 import { COLORS, FONTS, AGENT, FEATURED } from '../lib/brand';
 import { fetchListings } from '../lib/simplyrets';
 
+// ISR: prerendered empty at build, filled on first request, refreshed every 5 min.
+export const revalidate = 300;
+
 export const metadata = {
   alternates: { canonical: '/' },
 };
