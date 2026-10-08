@@ -17,16 +17,17 @@ export const AGENT = {
   firstName: 'Cody',
   lastName: 'Fiesel',
   fullName: 'Cody Fiesel',
-  dre: 'TODO',                         // Cody's DRE license number
+  dre: '02103713',
   title: 'REALTOR®',
-  phone: 'TODO',                       // display format, e.g. 707-555-0100
-  phoneTel: 'tel:+1TODO',              // E.164 digits only, e.g. tel:+17075550100
-  email: 'TODO@codyfiesel.com',        // where visitors see his email
+  phone: '707-479-3119',
+  phoneTel: 'tel:+17074793119',
+  email: 'cody@codyfiesel.com',
   headshot: '/images/headshot.jpg',    // drop Cody's photo at public/images/headshot.jpg
   bio: [
-    // 3 to 5 sentences from Cody. Each array item renders as a paragraph.
-    'Cody Fiesel is a top producing real estate agent serving Sonoma, Marin and Napa counties.',
-    'TODO: second paragraph.',
+    // PLACEHOLDER BIO. Replace with Cody's own words before launch. Each array item renders as a paragraph.
+    'Cody Fiesel is a real estate agent with W Real Estate serving Sonoma, Marin and Napa counties. He works with buyers and sellers across Wine Country, from first homes in Santa Rosa and Petaluma to vineyard properties in Healdsburg and Sonoma.',
+    'Cody built his business on relationships, not ads. Most of his clients come from people he already knows, and he treats every transaction like it will be talked about at a dinner table for years, because it will be.',
+    'Outside of real estate, Cody teaches a free community CPR class every month. If you want a seat, the signup is right here on the site.',
   ],
   tagline: 'Sonoma · Marin · Napa',
   heroHeadline: 'Find Your Place in Wine Country',
@@ -41,13 +42,13 @@ export const AGENT = {
 };
 
 export const BROKER = {
-  name: 'TODO Brokerage',
-  dre: 'TODO',
+  name: 'W Real Estate',
+  dre: '01795950',
   address: {
-    street: 'TODO',
-    city: 'TODO',
+    street: '825 Gravenstein Hwy N',
+    city: 'Sebastopol',
     state: 'CA',
-    zip: 'TODO',
+    zip: '95472',
   },
   logo: '',                            // optional: /images/broker-logo.png
 };
